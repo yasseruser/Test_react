@@ -1,0 +1,959 @@
+  [
+    {
+      "id": "da398447-5804-4901-957a-08dccff0be01",
+      "data": [
+        {
+          "name": "Direktekostnader Renovasjon 100 %",
+          "selectionId": "a2960d61-3f3b-4e2a-a613-08dccff0b46a",
+          "readOnly": false,
+          "distributionKey": {
+            "id": "b26a5219-2642-4a21-78bf-08dccff0b417",
+            "name": "Renovasjon 100 %",
+            "isGlobalDistributionKey": true,
+            "linkedTo": "DistributionKey",
+            "distributions": [
+              {
+                "id": "28ef129b-79ff-421c-8ddf-bc11f651c3c9",
+                "name": "Renovasjon",
+                "color": "#208A4B",
+                "percentage": 100
+              }
+            ]
+          },
+          "flag": {
+            "id": 1,
+            "indirectCostCategory": null
+          },
+          "nodes": [
+            {
+              "id": "100",
+              "hasSecondColumn": true,
+              "value": "100",
+              "secondColumn": "Microsoft",
+              "initialValue": 157,
+              "calculatedValue": 157,
+              "rules": [
+                
+              ],
+              "nodes": [
+                {
+                  "id": "100.1001",
+                  "hasSecondColumn": true,
+                  "value": "1001",
+                  "secondColumn": "IT",
+                  "initialValue": 120,
+                  "calculatedValue": 120,
+                  "rules": [
+                    
+                  ],
+                  "nodes": [
+                    {
+                      "id": "100.1001.Windows",
+                      "hasSecondColumn": false,
+                      "value": "Windows",
+                      "secondColumn": "",
+                      "initialValue": 120,
+                      "calculatedValue": 120,
+                      "rules": [
+                        
+                      ],
+                      "nodes": [
+                        {
+                          "id": "100.1001.Windows.T1",
+                          "hasSecondColumn": false,
+                          "value": "T1",
+                          "secondColumn": "",
+                          "initialValue": 100,
+                          "calculatedValue": 100,
+                          "rules": [
+                            
+                          ],
+                          "nodes": [
+                            
+                          ]
+                        },
+                        {
+                          "id": "100.1001.Windows.T2",
+                          "hasSecondColumn": false,
+                          "value": "T2",
+                          "secondColumn": "",
+                          "initialValue": 20,
+                          "calculatedValue": 20,
+                          "rules": [
+                            
+                          ],
+                          "nodes": [
+                            
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "100.1002",
+                  "hasSecondColumn": true,
+                  "value": "1002",
+                  "secondColumn": "Sales",
+                  "initialValue": 37,
+                  "calculatedValue": 37,
+                  "rules": [
+                    
+                  ],
+                  "nodes": [
+                    {
+                      "id": "100.1002.Phones",
+                      "hasSecondColumn": false,
+                      "value": "Phones",
+                      "secondColumn": "",
+                      "initialValue": 7,
+                      "calculatedValue": 7,
+                      "rules": [
+                        
+                      ],
+                      "nodes": [
+                        {
+                          "id": "100.1002.Phones.T5",
+                          "hasSecondColumn": false,
+                          "value": "T5",
+                          "secondColumn": "",
+                          "initialValue": 7,
+                          "calculatedValue": 7,
+                          "rules": [
+                            
+                          ],
+                          "nodes": [
+                            
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "100.1002.PC",
+                      "hasSecondColumn": false,
+                      "value": "PC",
+                      "secondColumn": "",
+                      "initialValue": 30,
+                      "calculatedValue": 30,
+                      "rules": [
+                        
+                      ],
+                      "nodes": [
+                        {
+                          "id": "100.1002.PC.T5",
+                          "hasSecondColumn": false,
+                          "value": "T5",
+                          "secondColumn": "",
+                          "initialValue": 30,
+                          "calculatedValue": 30,
+                          "rules": [
+                            
+                          ],
+                          "nodes": [
+                            
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "200",
+              "hasSecondColumn": true,
+              "value": "200",
+              "secondColumn": "Appl",
+              "initialValue": 135,
+              "calculatedValue": 135,
+              "rules": [
+                
+              ],
+              "nodes": [
+                {
+                  "id": "200.2001",
+                  "hasSecondColumn": true,
+                  "value": "2001",
+                  "secondColumn": "Design",
+                  "initialValue": 135,
+                  "calculatedValue": 135,
+                  "rules": [
+                    
+                  ],
+                  "nodes": [
+                    {
+                      "id": "200.2001.Iphone",
+                      "hasSecondColumn": false,
+                      "value": "Iphone",
+                      "secondColumn": "",
+                      "initialValue": 135,
+                      "calculatedValue": 135,
+                      "rules": [
+                        
+                      ],
+                      "nodes": [
+                        {
+                          "id": "200.2001.Iphone.A1",
+                          "hasSecondColumn": false,
+                          "value": "A1",
+                          "secondColumn": "",
+                          "initialValue": 60,
+                          "calculatedValue": 60,
+                          "rules": [
+                            
+                          ],
+                          "nodes": [
+                            
+                          ]
+                        },
+                        {
+                          "id": "200.2001.Iphone.AD7",
+                          "hasSecondColumn": false,
+                          "value": "AD7",
+                          "secondColumn": "",
+                          "initialValue": 75,
+                          "calculatedValue": 75,
+                          "rules": [
+                            
+                          ],
+                          "nodes": [
+                            
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "300",
+              "hasSecondColumn": true,
+              "value": "300",
+              "secondColumn": "Samsung",
+              "initialValue": 110,
+              "calculatedValue": 110,
+              "rules": [
+                
+              ],
+              "nodes": [
+                {
+                  "id": "300.3001",
+                  "hasSecondColumn": true,
+                  "value": "3001",
+                  "secondColumn": "Dev",
+                  "initialValue": 110,
+                  "calculatedValue": 110,
+                  "rules": [
+                    
+                  ],
+                  "nodes": [
+                    {
+                      "id": "300.3001.Z",
+                      "hasSecondColumn": false,
+                      "value": "Z",
+                      "secondColumn": "",
+                      "initialValue": 110,
+                      "calculatedValue": 110,
+                      "rules": [
+                        
+                      ],
+                      "nodes": [
+                        {
+                          "id": "300.3001.Z.Z",
+                          "hasSecondColumn": false,
+                          "value": "Z",
+                          "secondColumn": "",
+                          "initialValue": 110,
+                          "calculatedValue": 110,
+                          "rules": [
+                            
+                          ],
+                          "nodes": [
+                            
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "900",
+              "hasSecondColumn": true,
+              "value": "900",
+              "secondColumn": "Nokia",
+              "initialValue": 45,
+              "calculatedValue": 45,
+              "rules": [
+                
+              ],
+              "nodes": [
+                {
+                  "id": "900.9000",
+                  "hasSecondColumn": true,
+                  "value": "9000",
+                  "secondColumn": "Search",
+                  "initialValue": 45,
+                  "calculatedValue": 45,
+                  "rules": [
+                    
+                  ],
+                  "nodes": [
+                    {
+                      "id": "900.9000.Phones",
+                      "hasSecondColumn": false,
+                      "value": "Phones",
+                      "secondColumn": "",
+                      "initialValue": 45,
+                      "calculatedValue": 45,
+                      "rules": [
+                        
+                      ],
+                      "nodes": [
+                        {
+                          "id": "900.9000.Phones.S1",
+                          "hasSecondColumn": false,
+                          "value": "S1",
+                          "secondColumn": "",
+                          "initialValue": 45,
+                          "calculatedValue": 45,
+                          "rules": [
+                            
+                          ],
+                          "nodes": [
+                            
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Direkteinntekter Renovasjon 100 %",
+          "selectionId": "83db19d5-07cf-4719-a614-08dccff0b46a",
+          "readOnly": false,
+          "distributionKey": {
+            "id": "b26a5219-2642-4a21-78bf-08dccff0b417",
+            "name": "Renovasjon 100 %",
+            "isGlobalDistributionKey": true,
+            "linkedTo": "DistributionKey",
+            "distributions": [
+              {
+                "id": "28ef129b-79ff-421c-8ddf-bc11f651c3c9",
+                "name": "Renovasjon",
+                "color": "#208A4B",
+                "percentage": 100
+              }
+            ]
+          },
+          "flag": {
+            "id": 2,
+            "indirectCostCategory": null
+          },
+          "nodes": [
+            {
+              "id": "200",
+              "hasSecondColumn": true,
+              "value": "200",
+              "secondColumn": "Appl",
+              "initialValue": 135,
+              "calculatedValue": 135,
+              "rules": [
+                
+              ],
+              "nodes": [
+                {
+                  "id": "200.2001",
+                  "hasSecondColumn": true,
+                  "value": "2001",
+                  "secondColumn": "Design",
+                  "initialValue": 135,
+                  "calculatedValue": 135,
+                  "rules": [
+                    
+                  ],
+                  "nodes": [
+                    {
+                      "id": "200.2001.Iphone",
+                      "hasSecondColumn": false,
+                      "value": "Iphone",
+                      "secondColumn": "",
+                      "initialValue": 135,
+                      "calculatedValue": 135,
+                      "rules": [
+                        
+                      ],
+                      "nodes": [
+                        {
+                          "id": "200.2001.Iphone.A1",
+                          "hasSecondColumn": false,
+                          "value": "A1",
+                          "secondColumn": "",
+                          "initialValue": 60,
+                          "calculatedValue": 60,
+                          "rules": [
+                            
+                          ],
+                          "nodes": [
+                            
+                          ]
+                        },
+                        {
+                          "id": "200.2001.Iphone.AD7",
+                          "hasSecondColumn": false,
+                          "value": "AD7",
+                          "secondColumn": "",
+                          "initialValue": 75,
+                          "calculatedValue": 75,
+                          "rules": [
+                            
+                          ],
+                          "nodes": [
+                            
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "300",
+              "hasSecondColumn": true,
+              "value": "300",
+              "secondColumn": "Samsung",
+              "initialValue": 110,
+              "calculatedValue": 110,
+              "rules": [
+                
+              ],
+              "nodes": [
+                {
+                  "id": "300.3001",
+                  "hasSecondColumn": true,
+                  "value": "3001",
+                  "secondColumn": "Dev",
+                  "initialValue": 110,
+                  "calculatedValue": 110,
+                  "rules": [
+                    
+                  ],
+                  "nodes": [
+                    {
+                      "id": "300.3001.Z",
+                      "hasSecondColumn": false,
+                      "value": "Z",
+                      "secondColumn": "",
+                      "initialValue": 110,
+                      "calculatedValue": 110,
+                      "rules": [
+                        
+                      ],
+                      "nodes": [
+                        {
+                          "id": "300.3001.Z.Z",
+                          "hasSecondColumn": false,
+                          "value": "Z",
+                          "secondColumn": "",
+                          "initialValue": 110,
+                          "calculatedValue": 110,
+                          "rules": [
+                            
+                          ],
+                          "nodes": [
+                            
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "900",
+              "hasSecondColumn": true,
+              "value": "900",
+              "secondColumn": "Nokia",
+              "initialValue": 45,
+              "calculatedValue": 45,
+              "rules": [
+                
+              ],
+              "nodes": [
+                {
+                  "id": "900.9000",
+                  "hasSecondColumn": true,
+                  "value": "9000",
+                  "secondColumn": "Search",
+                  "initialValue": 45,
+                  "calculatedValue": 45,
+                  "rules": [
+                    
+                  ],
+                  "nodes": [
+                    {
+                      "id": "900.9000.Phones",
+                      "hasSecondColumn": false,
+                      "value": "Phones",
+                      "secondColumn": "",
+                      "initialValue": 45,
+                      "calculatedValue": 45,
+                      "rules": [
+                        
+                      ],
+                      "nodes": [
+                        {
+                          "id": "900.9000.Phones.S1",
+                          "hasSecondColumn": false,
+                          "value": "S1",
+                          "secondColumn": "",
+                          "initialValue": 45,
+                          "calculatedValue": 45,
+                          "rules": [
+                            
+                          ],
+                          "nodes": [
+                            
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ingen område",
+          "selectionId": "50b59e8d-498d-4873-955b-08db58804afd",
+          "readOnly": true,
+          "distributionKey": null,
+          "flag": null,
+          "nodes": [
+            
+          ]
+        },
+        {
+          "name": "Hele området",
+          "selectionId": "330c743c-3f0b-4934-9559-08db58804afd",
+          "readOnly": true,
+          "distributionKey": null,
+          "flag": null,
+          "nodes": [
+            
+          ]
+        }
+      ],
+      "name": "yo",
+      "headers": [
+        "Organisation",
+        "Organisation_(t)",
+        "Department",
+        "Department_(t)",
+        "Project",
+        "Team"
+      ],
+      "areas": [
+        "28ef129b-79ff-421c-8ddf-bc11f651c3c9"
+      ]
+    },
+    {
+      "id": "cf8adb84-1745-44a7-9579-08dccff0be01",
+      "data": [
+        {
+          "name": "Direktekostnader Feiing 100 %",
+          "selectionId": "58a6e06d-ce09-48dd-a60c-08dccff0b46a",
+          "readOnly": false,
+          "distributionKey": {
+            "id": "4874a3ca-7c5a-41c8-78bc-08dccff0b417",
+            "name": "Feiing 100 %",
+            "isGlobalDistributionKey": true,
+            "linkedTo": "DistributionKey",
+            "distributions": [
+              {
+                "id": "b5066bcf-d8a4-44f7-9eb5-f1ca0d45baec",
+                "name": "Feiing",
+                "color": "#CA2602",
+                "percentage": 100
+              }
+            ]
+          },
+          "flag": {
+            "id": 1,
+            "indirectCostCategory": null
+          },
+          "nodes": [
+            {
+              "id": "100",
+              "hasSecondColumn": true,
+              "value": "100",
+              "secondColumn": "Microsoft",
+              "initialValue": 157,
+              "calculatedValue": 157,
+              "rules": [
+                
+              ],
+              "nodes": [
+                {
+                  "id": "100.1001",
+                  "hasSecondColumn": true,
+                  "value": "1001",
+                  "secondColumn": "IT",
+                  "initialValue": 120,
+                  "calculatedValue": 120,
+                  "rules": [
+                    
+                  ],
+                  "nodes": [
+                    
+                  ]
+                },
+                {
+                  "id": "100.1002",
+                  "hasSecondColumn": true,
+                  "value": "1002",
+                  "secondColumn": "Sales",
+                  "initialValue": 37,
+                  "calculatedValue": 37,
+                  "rules": [
+                    
+                  ],
+                  "nodes": [
+                    
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "200",
+              "hasSecondColumn": true,
+              "value": "200",
+              "secondColumn": "Appl",
+              "initialValue": 135,
+              "calculatedValue": 135,
+              "rules": [
+                
+              ],
+              "nodes": [
+                {
+                  "id": "200.2001",
+                  "hasSecondColumn": true,
+                  "value": "2001",
+                  "secondColumn": "Design",
+                  "initialValue": 135,
+                  "calculatedValue": 135,
+                  "rules": [
+                    
+                  ],
+                  "nodes": [
+                    
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Direktekostnader Renovasjon 100 %",
+          "selectionId": "a2960d61-3f3b-4e2a-a613-08dccff0b46a",
+          "readOnly": false,
+          "distributionKey": {
+            "id": "b26a5219-2642-4a21-78bf-08dccff0b417",
+            "name": "Renovasjon 100 %",
+            "isGlobalDistributionKey": true,
+            "linkedTo": "DistributionKey",
+            "distributions": [
+              {
+                "id": "28ef129b-79ff-421c-8ddf-bc11f651c3c9",
+                "name": "Renovasjon",
+                "color": "#208A4B",
+                "percentage": 100
+              }
+            ]
+          },
+          "flag": {
+            "id": 1,
+            "indirectCostCategory": null
+          },
+          "nodes": [
+            {
+              "id": "100",
+              "hasSecondColumn": true,
+              "value": "100",
+              "secondColumn": "Microsoft",
+              "initialValue": 157,
+              "calculatedValue": 157,
+              "rules": [
+                
+              ],
+              "nodes": [
+                {
+                  "id": "100.1001",
+                  "hasSecondColumn": true,
+                  "value": "1001",
+                  "secondColumn": "IT",
+                  "initialValue": 120,
+                  "calculatedValue": 120,
+                  "rules": [
+                    
+                  ],
+                  "nodes": [
+                    
+                  ]
+                },
+                {
+                  "id": "100.1002",
+                  "hasSecondColumn": true,
+                  "value": "1002",
+                  "secondColumn": "Sales",
+                  "initialValue": 37,
+                  "calculatedValue": 37,
+                  "rules": [
+                    
+                  ],
+                  "nodes": [
+                    
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "200",
+              "hasSecondColumn": true,
+              "value": "200",
+              "secondColumn": "Appl",
+              "initialValue": 135,
+              "calculatedValue": 135,
+              "rules": [
+                
+              ],
+              "nodes": [
+                {
+                  "id": "200.2001",
+                  "hasSecondColumn": true,
+                  "value": "2001",
+                  "secondColumn": "Design",
+                  "initialValue": 135,
+                  "calculatedValue": 135,
+                  "rules": [
+                    
+                  ],
+                  "nodes": [
+                    
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "300",
+              "hasSecondColumn": true,
+              "value": "300",
+              "secondColumn": "Samsung",
+              "initialValue": 110,
+              "calculatedValue": 110,
+              "rules": [
+                
+              ],
+              "nodes": [
+                {
+                  "id": "300.3001",
+                  "hasSecondColumn": true,
+                  "value": "3001",
+                  "secondColumn": "Dev",
+                  "initialValue": 110,
+                  "calculatedValue": 110,
+                  "rules": [
+                    
+                  ],
+                  "nodes": [
+                    
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "900",
+              "hasSecondColumn": true,
+              "value": "900",
+              "secondColumn": "Nokia",
+              "initialValue": 45,
+              "calculatedValue": 45,
+              "rules": [
+                
+              ],
+              "nodes": [
+                {
+                  "id": "900.9000",
+                  "hasSecondColumn": true,
+                  "value": "9000",
+                  "secondColumn": "Search",
+                  "initialValue": 45,
+                  "calculatedValue": 45,
+                  "rules": [
+                    
+                  ],
+                  "nodes": [
+                    
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Direkteinntekter Renovasjon 100 %",
+          "selectionId": "83db19d5-07cf-4719-a614-08dccff0b46a",
+          "readOnly": false,
+          "distributionKey": {
+            "id": "b26a5219-2642-4a21-78bf-08dccff0b417",
+            "name": "Renovasjon 100 %",
+            "isGlobalDistributionKey": true,
+            "linkedTo": "DistributionKey",
+            "distributions": [
+              {
+                "id": "28ef129b-79ff-421c-8ddf-bc11f651c3c9",
+                "name": "Renovasjon",
+                "color": "#208A4B",
+                "percentage": 100
+              }
+            ]
+          },
+          "flag": {
+            "id": 2,
+            "indirectCostCategory": null
+          },
+          "nodes": [
+            {
+              "id": "200",
+              "hasSecondColumn": true,
+              "value": "200",
+              "secondColumn": "Appl",
+              "initialValue": 135,
+              "calculatedValue": 135,
+              "rules": [
+                
+              ],
+              "nodes": [
+                {
+                  "id": "200.2001",
+                  "hasSecondColumn": true,
+                  "value": "2001",
+                  "secondColumn": "Design",
+                  "initialValue": 135,
+                  "calculatedValue": 135,
+                  "rules": [
+                    
+                  ],
+                  "nodes": [
+                    
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "300",
+              "hasSecondColumn": true,
+              "value": "300",
+              "secondColumn": "Samsung",
+              "initialValue": 110,
+              "calculatedValue": 110,
+              "rules": [
+                
+              ],
+              "nodes": [
+                {
+                  "id": "300.3001",
+                  "hasSecondColumn": true,
+                  "value": "3001",
+                  "secondColumn": "Dev",
+                  "initialValue": 110,
+                  "calculatedValue": 110,
+                  "rules": [
+                    
+                  ],
+                  "nodes": [
+                    
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "900",
+              "hasSecondColumn": true,
+              "value": "900",
+              "secondColumn": "Nokia",
+              "initialValue": 45,
+              "calculatedValue": 45,
+              "rules": [
+                
+              ],
+              "nodes": [
+                {
+                  "id": "900.9000",
+                  "hasSecondColumn": true,
+                  "value": "9000",
+                  "secondColumn": "Search",
+                  "initialValue": 45,
+                  "calculatedValue": 45,
+                  "rules": [
+                    
+                  ],
+                  "nodes": [
+                    
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ingen område",
+          "selectionId": "50b59e8d-498d-4873-955b-08db58804afd",
+          "readOnly": true,
+          "distributionKey": null,
+          "flag": null,
+          "nodes": [
+            
+          ]
+        },
+        {
+          "name": "Hele området",
+          "selectionId": "330c743c-3f0b-4934-9559-08db58804afd",
+          "readOnly": true,
+          "distributionKey": null,
+          "flag": null,
+          "nodes": [
+            
+          ]
+        }
+      ],
+      "name": "THREADS",
+      "headers": [
+        "Organisation",
+        "Organisation_(t)",
+        "Department",
+        "Department_(t)"
+      ],
+      "areas": [
+        "b8c55c27-83c1-4578-9eef-72da5c1ab9cc",
+        "cdd6c7ff-9a55-4769-8199-e79576d0ed03",
+        "28ef129b-79ff-421c-8ddf-bc11f651c3c9",
+        "b5066bcf-d8a4-44f7-9eb5-f1ca0d45baec",
+        "3f171f92-6d6f-41bf-b732-dd2fa59c92d8",
+        "a79593f2-58f1-44db-93f7-10f1118c24dc",
+        "4012d385-c4d8-4d81-9d59-f27cb7479e0b",
+        "43bd60d7-9a01-45b3-a6d6-af97ef790e4b",
+        "116e4f60-d4ff-461d-b89a-d6f9ffc0de21",
+        "ab74fb04-9f20-44b1-a7df-d66f7fa7db9e"
+      ]
+    }
+  ]
